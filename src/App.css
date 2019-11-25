@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -19,4 +23,46 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  padding: 5px 0;
+}
+
+.results{
+  margin-top: 80px;
+}
+
+ul{
+  list-style: none;
+  width: 50%;
+  margin: 0 auto; 
+  border: 1px solid thistle;
+}
+
+li{
+  padding: 10px 5px;
+  border-top: 1px solid thistle;
+}
+
+li:first-child{
+  border: 0;
+}
+
+
+
+button{
+  border: 1px solid teal;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px;
+  outline: none;
 }
